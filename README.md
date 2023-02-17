@@ -8,7 +8,7 @@ Even utilities need utilities!
 
 ## Installation
 
-Feel free to copy <src/fake_files.py> into your tests/ directory.
+Feel free to copy [fake_files.py](src/fake_files.py) into your tests/ directory.
 
 ## Usage
 
