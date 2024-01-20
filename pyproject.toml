@@ -12,3 +12,18 @@ ignore_missing_imports = true
 mypy_path = "src"
 namespace_packages = true
 strict = true
+
+[project]
+name = "ehr_utils_utils"
+version = "0.1.0"
+authors = [
+  { name="Patrick Wang", email="patrick.wang@duke.edu" },
+]
+description = "Utilities for building and maintaining EHR utilities."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

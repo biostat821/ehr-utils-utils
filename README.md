@@ -8,7 +8,9 @@ Even utilities need utilities!
 
 ## Installation
 
-Feel free to copy [fake_files.py](src/fake_files.py) into your tests/ directory.
+```bash
+pip install git+https://github.com/biostat821/ehr-utils-utils.git@main
+```
 
 ## Usage
 
