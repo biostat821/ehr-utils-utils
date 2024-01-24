@@ -2,7 +2,7 @@
 
 Even utilities need utilities!
 
-## Modules
+## Functions
 
 * `fake_files` - provides test doubles for tsv files
 
@@ -18,7 +18,7 @@ The `fake_files` context manager takes tables (`list[list[str]]`), produces temp
 
 Example usage:
 ```python
-from fake_files import fake_files
+from ehr_utils_utils import fake_files
 
 def test_my_parse_fcn():
     table = [["a", "b"], ["1", "2"]]

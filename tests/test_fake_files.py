@@ -1,7 +1,7 @@
 """Test fake files."""
 import pytest
 
-from src import fake_files
+from ehr_utils_utils import fake_files
 
 
 def test_fake_files_tsv() -> None:
